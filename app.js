@@ -21,7 +21,8 @@ const main = () => {
             case 2: gifSrc = './assets/gifs/2.gif'; break;
             case 3: gifSrc = './assets/gifs/3.gif'; break;
             case 4: gifSrc = './assets/gifs/4.gif'; break;
-            default:  gifSrc = './assets/gifs/1.gif'; break;
+            case 5: gifSrc = './assets/gifs/5.gif'; break;
+            default:  gifSrc = ''; break;
         }
 
         const loaderElement = document.querySelector('.preloader');
